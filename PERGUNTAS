@@ -1,0 +1,44 @@
+1. Qual é a função do Scaffold em uma tela Flutter?
+O Scaffold é a estrutura base de uma tela no Flutter. Ele organiza elementos como AppBar, Body, FloatingActionButton e SnackBar, dando o “esqueleto” da interface.
+
+2. Para que serve o AppBar?
+O AppBar é a barra superior do aplicativo. Ele geralmente mostra o título da tela e pode conter botões de ação.
+
+3. Qual é a diferença entre StatelessWidget e StatefulWidget?
+StatelessWidget não muda depois de criado. Já o StatefulWidget pode mudar seu estado durante a execução usando setState.
+
+4. Para que serve o setState?
+O setState serve para atualizar a interface do usuário quando algum valor muda, fazendo a tela ser reconstruída.
+
+5. Explique o que acontece quando usamos Navigator.push.
+O Navigator.push abre uma nova tela e a coloca no topo da pilha de navegação, permitindo navegar para outra página.
+
+6. Explique o que acontece quando usamos Navigator.pop.
+O Navigator.pop fecha a tela atual e volta para a tela anterior.
+
+7. Para que serve o TextEditingController?
+Ele controla o texto digitado em um TextField, permitindo ler, limpar ou modificar o conteúdo.
+
+8. Por que é importante validar os campos antes de enviar o pedido?
+Para evitar erros e garantir que o usuário preencheu todas as informações necessárias antes de continuar.
+
+9. Para que serve o SnackBar?
+O SnackBar exibe mensagens rápidas na parte inferior da tela, como confirmações ou avisos.
+
+10. O que o showModalBottomSheet faz no aplicativo?
+Ele abre uma janela que aparece na parte inferior da tela mostrando informações adicionais, como promoções.
+
+11. Para que serve o AnimatedContainer?
+O AnimatedContainer cria animações automáticas quando propriedades como cor, tamanho ou borda mudam.
+
+12. Por que usamos SingleChildScrollView em algumas telas?
+Para permitir rolagem quando o conteúdo é maior que a tela, evitando overflow (erro de tela estourada).
+
+13. Qual a vantagem de criar um widget personalizado como o CardProduto?
+Evita repetição de código, melhora a organização e facilita a manutenção do projeto.
+
+14. Qual a diferença entre usar Column e ListView?
+Column apenas organiza os elementos em coluna e não rola a tela. ListView permite rolagem automática.
+
+15. Por que separar partes do código em widgets pode deixar o projeto melhor?
+Porque melhora a organização, reutilização de código e facilita manutenção e leitura do projeto.
